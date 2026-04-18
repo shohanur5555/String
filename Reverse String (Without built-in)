@@ -1,0 +1,14 @@
+
+String revarse(String text){
+  String finalName = '';
+  for(int i = text.length-1; i >= 0; i--){
+    finalName += text[i];
+  }
+  
+  return finalName;
+}
+
+void main(){
+  
+  print(revarse('hello'));
+}
