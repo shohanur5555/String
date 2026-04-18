@@ -1,0 +1,8 @@
+void main(){
+  if(isEmptyString('') == false){
+    print('Not empty');
+  }
+  else{
+    print('this is empty');
+  }
+}
