@@ -1,0 +1,6 @@
+void main() {
+  String name = "shohan";
+
+  print(name.length);
+  print(name.toUpperCase());
+}
