@@ -3,9 +3,10 @@ int countWord(String text){
     return 0;
   }
   List<String> words = text.trim().split(RegExp(r'\s+'));
+  
   return words.length;
 }
 
 void main(){
-  print(countWord('Shohanur Rahman Shohan'));
+  print(countWord("shohanur Rahman Shohan"));
 }
