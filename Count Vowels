@@ -1,0 +1,15 @@
+int vowel(String text){
+  int count = 0;
+  
+  for(int i = 0; i < text.length; i++){
+    if(text[i].toUpperCase() == 'A' || text[i].toUpperCase() == 'E' || text[i].toUpperCase() == 'I' || text[i].toUpperCase() == 'O' || text[i].toUpperCase() == 'U'){
+      count++;
+    }
+  }
+  return count;
+}
+
+
+void main(){
+  print(vowel("shohan"));
+}
