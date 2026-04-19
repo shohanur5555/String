@@ -1,0 +1,11 @@
+int countWord(String text){
+  if(text.isEmpty){
+    return 0;
+  }
+  List<String> words = text.trim().split(RegExp(r'\s+'));
+  return words.length;
+}
+
+void main(){
+  print(countWord('Shohanur Rahman Shohan'));
+}
