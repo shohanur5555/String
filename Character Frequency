@@ -1,0 +1,22 @@
+void main(){
+  int a = 0;
+  int b = 0;
+  int n = 0;
+  
+  String text = "banana";
+  
+  for(int i = 0; i < text.length; i++){
+    if(text[i].toLowerCase() == "a"){
+      a++; 
+    }
+    else if(text[i].toLowerCase() == "b"){
+      b++;
+    }
+    else if(text[i].toLowerCase() == "n"){
+      n++;
+    }
+  }
+  
+  print("The result is :- \na = $a times \nb = $b times \nn = $n times");
+  
+}
