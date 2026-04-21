@@ -1,0 +1,17 @@
+String replace(String text){
+  String result = '';
+  for(int i = 0; i <text.length; i++)
+  {
+    if(text[i] == "a"){
+      result += "@";
+    }
+    else{
+      result += text[i];
+    }
+  }
+  return result;
+}
+void main(){
+  print(replace("banana"));
+}
+
