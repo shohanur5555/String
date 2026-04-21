@@ -1,0 +1,26 @@
+bool isAnagram(String a, String b) {
+  if (a.length != b.length) {
+    print(a.length);
+    print(b.length);
+    return false;
+  }
+
+  List<String> listA = a.split("");
+  List<String> listB = b.split("");
+
+  listA.sort();
+  print(listA);
+  listB.sort();
+  print(listB);
+
+  return listA.join() == listB.join();
+}
+
+void main() {
+  if(isAnagram("silent","listen") == true){
+    print("This two word is anagram");
+  }
+  else{
+    print("This two word is no anagram");
+  }
+}
