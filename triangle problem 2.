@@ -1,0 +1,16 @@
+String triangle(int n){
+  String result = '';
+  for(int i = 1; i <= n; i++){
+    result += "s";
+    print(result);
+    
+  }
+  for(int i = n-1; i >= 1; i--){
+    result = result.substring(0, result.length-1);
+    print(result);
+  }
+  return result;
+}
+void main(){
+  triangle(10);
+}
